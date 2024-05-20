@@ -32,13 +32,13 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="homepage.html">Beranda </a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Beranda </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register.html">Daftar</a>
+                        <a class="nav-link" href="register.php">Daftar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Masuk</a>
+                        <a class="nav-link" href="login.php">Masuk</a>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -51,7 +51,7 @@
     <div class="container">
         <nav aria-label="breadcrumb" style="background-color: #fff" class="mt-3">
             <ol class="breadcrumb p-3">
-                <li class="breadcrumb-item"><a href="homepage.html" class="text-decoration-none">Beranda</a></li>
+                <li class="breadcrumb-item"><a href="homepage.php" class="text-decoration-none">Beranda</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Produk</li>
             </ol>
         </nav>
@@ -63,7 +63,7 @@
         <div class="row row-product">
             <div class="col-lg-5">
                 <figure class="figure">
-                    <img src="../assets/kanalpot rcb2.jpeg" class="figure-img img-fluid" width="300px" height="5000px">
+                    <img src="../assets/mr rcb.jpeg" class="figure-img img-fluid" width="300px" height="5000px">
                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
                     </figcaption>
@@ -71,11 +71,11 @@
             </div>
 
             <div class="col-lg-7">
-                <h4>KANALPOT RCB</h4>
+                <h4>MASTER REM RCB</h4>
                 <div class="garis-product"></div>
-                <h3 class="text-muted mb-2">Rp.130.000</h3>
+                <h3 class="text-muted mb-2">Rp.1.525.000</h3>
                 <div class="btn-produk mt-1">
-                    <a href="https://shopee.co.id/Knalpot-Racing-RCB-DRAG-MIO-SPORTY-BEAT-VARIO-N-MAX-X-RIDE-LEXI-AEROX-i.134742983.2025451092?sp_atk=ee2c2227-e792-4c9a-b241-f667f6f369d1&xptdk=ee2c2227-e792-4c9a-b241-f667f6f369d1"
+                    <a href="https://shopee.co.id/Paketan-Master-Rem-RCB-E2-Oval-Bulat-14mm-Set-Kanan-Kiri-Handle-Kopling-Kaliper-RCB-S-E-Series-2-piston-Handgrip-RCB-HG77-Selang-Rem-TDR-Carbon-90cm-Vario-110-125-150-Beat-Scoopy-New-Old-Fino-Xride-125-RX-King-Spesial-lama-Aerox-Ninja-Original-i.207404549.24327111129?sp_atk=3a119223-e3ac-4d8a-a648-964d7c30ea3f&xptdk=3a119223-e3ac-4d8a-a648-964d7c30ea3f"
                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli Sekarang</a>
                 </div>
             </div>
@@ -97,11 +97,16 @@
                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi" role="tabpanel"
                         aria-labelledby="Deskripsi-tab">
                         <p>
-                            Bahan material stenlis Bagus.
-                            Diameter 50mm / 2inc.
-                            -BAS PADET
-                            -BAS GAHAR
-                            -GARING
+                            - Master rem RCB E2 Oval kanan kiri
+                            - Kaliper RCB S / E Series
+                            - Selang TDR 90CM carbon
+                            - Handgrip RCB HG77
+
+                            Cocok untuk motor :
+                            - RX King
+                            - Scoopy
+                            - Fino
+                            - Motor motor yang tidak ada batok atas
                         </p>
                     </div>
                     <!-- single product 1 -->
@@ -113,8 +118,8 @@
                         <div class="row row-product">
                             <div class="col-lg-5">
                                 <figure class="figure">
-                                    <img src="../assets/kanalpot proliner.jpeg" class="figure-img img-fluid"
-                                        width="300px" height="5000px">
+                                    <img src="../assets/mr ktc.jpeg" class="figure-img img-fluid" width="300px"
+                                        height="5000px">
                                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
                                     </figcaption>
@@ -122,11 +127,11 @@
                             </div>
 
                             <di class="col-lg-7">
-                                <h4>KANALPOT PROLINER</h4>
+                                <h4>MASTER REM KTC</h4>
                                 <div class="garis-product"></div>
-                                <h3 class="text-muted mb-2">Rp.809.600</h3>
+                                <h3 class="text-muted mb-2">Rp.1.800.000</h3>
                                 <div class="btn-produk mt-1">
-                                    <a href="https://shopee.co.id/PROLINER-KNALPOT-PROLINER-TR1-SHORT-FULL-SISTEM-ORIGINAL-i.54974978.5261320144?sp_atk=7bc79309-9fe8-48a4-886f-9745d02121b9&xptdk=7bc79309-9fe8-48a4-886f-9745d02121b9"
+                                    <a href="https://shopee.co.id/Master-Rem-KTC-Kyta-7NB-16mm-Set-Kanan-Kiri-handle-Kopling-CNC-Vario-110-125-150-160-CBS-Beat-FI-Karbu-Scoopy-New-old-Verza-MX-King-R15-V2-V3-CBR-CBR250RR-Ninja-R-RR-250FI-R25-MT25-ER6N-ZX25R-RX-King-FIZR-Original-PNP-Kytaco-17mm-i.207404549.24868958031?sp_atk=b66d0114-d6f4-45a6-8ae0-745481d9f288&xptdk=b66d0114-d6f4-45a6-8ae0-745481d9f288"
                                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli Sekarang</a>
                                 </div>
                         </div>
@@ -147,18 +152,27 @@
                                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi" role="tabpanel"
                                         aria-labelledby="Deskripsi-tab">
                                         <p>
-                                            Knalpot Racing Motor RCB Racing Original
-                                            Aplikasi :
-                                            - Beat Karbu
-                                            - Beat Fi
-                                            - Beat Esp
-                                            - Scoopy Karbu
-                                            - Scoopy Fi
-                                            - Scoopy Esp
-                                            - Vario 110
-                                            Inlet : 38mm
-                                            Saringan Setengah
-                                            Panjang Silincer : 20cm
+                                            Master Rem KTC Kyta
+                                            Tipe : 7NB
+                                            Ukuran Piston : 16mm 9/16x18
+
+                                            Set Kanan Kiri Handle Kopling
+
+                                            isi paket :
+                                            - Master Rem Kanan 7NB
+                                            - Handle Kopling KTC Kiri
+                                            - 2 Tabung minyak rem Smoke dan susu
+                                            - breket spion variasi
+                                            - gantungan kunci
+                                            - sticker KTC
+                                            - Switch Rem Kanan
+
+                                            Cocok untuk semua motor / Universal :
+                                            - Motor Matic : Vario , Beat Scoopy dll.
+                                            - Motor Sport : R15 , CBR , Ninja dll
+                                            -Semua Motor
+
+
                                         </p>
                                     </div>
                                     <!-- single product 2 -->
@@ -169,7 +183,7 @@
                                         <div class="row row-product">
                                             <div class="col-lg-5">
                                                 <figure class="figure">
-                                                    <img src="../assets/kanalpot cld.jpeg" class="figure-img img-fluid"
+                                                    <img src="../assets/mr brembo.jpeg" class="figure-img img-fluid"
                                                         width="300px" height="5000px">
                                                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
@@ -178,11 +192,11 @@
                                             </div>
 
                                             <di class="col-lg-7">
-                                                <h4>KANALPOT CLD</h4>
+                                                <h4>MASTER REM BREMBO</h4>
                                                 <div class="garis-product"></div>
-                                                <h3 class="text-muted mb-2">Rp.680.000</h3>
+                                                <h3 class="text-muted mb-2">Rp. 1.750.000,00</h3>
                                                 <div class="btn-produk mt-1">
-                                                    <a href="https://shopee.co.id/KNALPOT-CLD-TYPE-C2-BULAT-C2-OVAL-BEAT-SCOOPY-VARIO-110-i.348823908.7670892353?sp_atk=4aa65a05-e04e-4076-91ef-437658205be9&xptdk=4aa65a05-e04e-4076-91ef-437658205be9"
+                                                    <a href="https://shopee.co.id/MASTER-REM-BREMBO-RCS19-CORSACORTA-TOP-GRADE-A001-LIMITED-EDITION-INCLUDE-DUDUKAN-SPION-ORI-THAILAND-i.183571353.6062806741?sp_atk=29a9a1e0-ed70-4798-a91e-4e1e993ffadc&xptdk=29a9a1e0-ed70-4798-a91e-4e1e993ffadc"
                                                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli
                                                         Sekarang</a>
                                                 </div>
@@ -205,18 +219,18 @@
                                                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi"
                                                         role="tabpanel" aria-labelledby="Deskripsi-tab">
                                                         <p>
-                                                            Knalpot Racing Motor CLD Racing Original
-                                                            Aplikasi :
-                                                            - Beat Karbu
-                                                            - Beat Fi
-                                                            - Beat Esp
-                                                            - Scoopy Karbu
-                                                            - Scoopy Fi
-                                                            - Scoopy Esp
-                                                            - Vario 110
-                                                            Inlet : 38mm
-                                                            Saringan Setengah
-                                                            Panjang Silincer : 20cm
+                                                            Master rem set Brembo RCS19 Cortacorsa
+                                                            _Include dudukan spion
+                                                            _Include Kabel swit rem
+                                                            _Include seset tabung master rem
+                                                            _Include Id Card brembo
+                                                            _Warna Grey limited kehitaman Metalic.
+                                                            _ Real picture dan reak kelengkapan sesuai picture
+                                                            _TOPGrade A01 original thailand.( No.1 nya thailand )
+                                                            _bookdush brembo
+                                                            _Logo brembo
+                                                            _Kiri Kopling/Rem
+
 
                                                         </p>
                                                     </div>
@@ -228,7 +242,7 @@
                                                         <div class="row row-product">
                                                             <div class="col-lg-5">
                                                                 <figure class="figure">
-                                                                    <img src="../assets/kanalpot akrapovic.jpeg"
+                                                                    <img src="../assets/mr nissin.jpeg"
                                                                         class="figure-img img-fluid" width="300px"
                                                                         height="5000px">
                                                                     <figcaption
@@ -239,11 +253,11 @@
                                                             </div>
 
                                                             <di class="col-lg-7">
-                                                                <h4>KANALPOT AKRAPOVIC</h4>
+                                                                <h4>MASTER REM NISSIN</h4>
                                                                 <div class="garis-product"></div>
-                                                                <h3 class="text-muted mb-2">Rp.550.000</h3>
+                                                                <h3 class="text-muted mb-2">Rp. 6.500.000,00</h3>
                                                                 <div class="btn-produk mt-1">
-                                                                    <a href="https://shopee.co.id/Knalpot-Ninja-250-R25-MT25-Z250-CBR-250RR-Fullsystem-Akrapovic-Lorenzo-i.11594536.6233430465?sp_atk=799c28c4-7429-4e6b-aa6a-db7c8e0af88a&xptdk=799c28c4-7429-4e6b-aa6a-db7c8e0af88a"
+                                                                    <a href="https://shopee.co.id/Master-rem-Nissin-prototype-HRC-Japan-i.22598744.25353989362?sp_atk=cf542c23-0be8-4895-a29f-0dc927f79b24&xptdk=cf542c23-0be8-4895-a29f-0dc927f79b24"
                                                                         class="btn btn-warning bt-lg"
                                                                         style="font-size: 10px">Beli Sekarang</a>
                                                                 </div>
@@ -268,19 +282,9 @@
                                                                         id="Deskripsi" role="tabpanel"
                                                                         aria-labelledby="Deskripsi-tab">
                                                                         <p>
-                                                                            Knalpot Racing Motor AKRAPOVIC Racing
-                                                                            Original
-                                                                            Aplikasi :
-                                                                            - Beat Karbu
-                                                                            - Beat Fi
-                                                                            - Beat Esp
-                                                                            - Scoopy Karbu
-                                                                            - Scoopy Fi
-                                                                            - Scoopy Esp
-                                                                            - Vario 110
-                                                                            Inlet : 38mm
-                                                                            Saringan Setengah
-                                                                            Panjang Silincer : 20cm
+                                                                            Master cylinder Nissin radial prototype HRC
+                                                                            original made in Japan 🇯🇵
+
 
                                                                         </p>
                                                                     </div>

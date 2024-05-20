@@ -34,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="homepage.html">Beranda </a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Beranda </a>
                     </li>
 
                     <li class="nav-item">
@@ -42,11 +42,11 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="register.html">Daftar</a>
+                        <a class="nav-link" href="register.php">Daftar</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Masuk</a>
+                        <a class="nav-link" href="login.php">Masuk</a>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -106,7 +106,7 @@
                     <a href="#"><img src="../assets/pelak2.jpeg" class="img-kategori mt-3"></a>
                     <p class="mt-2">VELG</p>
                     <div class="card-body">
-                        <a href="singleproduct.html" target="_blank" class="btn btn-primary">View more</a>
+                        <a href="singleproduct.php" target="_blank" class="btn btn-primary">View more</a>
                     </div>
                 </div>
             </div>
@@ -118,7 +118,7 @@
                     <a href="#"><img src="../assets/sb.jpeg" class="img-kategori mt-3"></a>
                     <p class="mt-2">shockbreake</p>
                     <div class="card-body">
-                        <a href="singleproduct2.html" target="_blank" class="btn btn-primary">View more</a>
+                        <a href="singleproduct2.php" target="_blank" class="btn btn-primary">View more</a>
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                     <a href="#"><img src="../assets/master rem.png_.webp" class="img-kategori mt-3"></a>
                     <p class="mt-2">Master Rem</p>
                     <div class="card-body">
-                        <a href="singleproduct3.html" target="_blank" class="btn btn-primary">View more</a>
+                        <a href="singleproduct3.php" target="_blank" class="btn btn-primary">View more</a>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                     <a href="#"><img src="../assets/kanalpot.jpg" class="img-kategori mt-3"></a>
                     <p class="mt-2">kanalpot</p>
                     <div class="card-body">
-                        <a href="singleproduct4.html" target="_blank" class="btn btn-primary">View more</a>
+                        <a href="singleproduct4.php" target="_blank" class="btn btn-primary">View more</a>
                     </div>
                 </div>
             </div>
@@ -154,7 +154,7 @@
                     <a href="#"><img src="../assets/Underbone.jpg" class="img-kategori mt-3"></a>
                     <p class="mt-2">Underbone</p>
                     <div class="card-body">
-                        <a href="singleproduct5.html" target="_blank" class="btn btn-primary">View more</a>
+                        <a href="singleproduct5.php" target="_blank" class="btn btn-primary">View more</a>
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@
                     <a href="#"><img src="../assets/ban2.jpg" class="img-kategori mt-3"></a>
                     <p class="mt-2">BAN</p>
                     <div class="card-body">
-                        <a href="singleproduct6.html" target="_blank" class="btn btn-primary">View more</a>
+                        <a href="singleproduct6.php" target="_blank" class="btn btn-primary">View more</a>
                     </div>
                 </div>
             </div>

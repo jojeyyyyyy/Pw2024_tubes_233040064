@@ -32,13 +32,13 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="homepage.html">Beranda </a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Beranda </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register.html">Daftar</a>
+                        <a class="nav-link" href="register.php">Daftar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Masuk</a>
+                        <a class="nav-link" href="login.php">Masuk</a>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -51,7 +51,7 @@
     <div class="container">
         <nav aria-label="breadcrumb" style="background-color: #fff" class="mt-3">
             <ol class="breadcrumb p-3">
-                <li class="breadcrumb-item"><a href="homepage.html" class="text-decoration-none">Beranda</a></li>
+                <li class="breadcrumb-item"><a href="homepage.php" class="text-decoration-none">Beranda</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Produk</li>
             </ol>
         </nav>
@@ -63,7 +63,7 @@
         <div class="row row-product">
             <div class="col-lg-5">
                 <figure class="figure">
-                    <img src="../assets/UNDERBON NUI.jpeg" class="figure-img img-fluid" width="300px" height="5000px">
+                    <img src="../assets/sbrcb.webp" class="figure-img img-fluid" width="300px" height="5000px">
                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
                     </figcaption>
@@ -71,11 +71,11 @@
             </div>
 
             <div class="col-lg-7">
-                <h4>UNDERBONE NUI MONSTER III</h4>
+                <h4>SHOCKBREAKER RCB</h4>
                 <div class="garis-product"></div>
-                <h3 class="text-muted mb-2">Rp.550.000</h3>
+                <h3 class="text-muted mb-2">Rp.2.256.000</h3>
                 <div class="btn-produk mt-1">
-                    <a href="https://shopee.co.id/UNDERBONE-SATRIA-FU-F150-OLD-CARBU-NUI-MONSTER-III-i.161604266.2621751555?sp_atk=d75910b6-d3ef-499e-be82-aab39f508527&xptdk=d75910b6-d3ef-499e-be82-aab39f508527"
+                    <a href="https://shopee.co.id/ShockBreaker-Shock-Belakang-RCB-Shock-RCB-Flow-Pro-Ukuran-305MM-Yamaha-Aerox-Old-Aerox-New-Nouvo-PCX150-NmaxNew-i.216757415.24065212112?sp_atk=4d95c7e5-c176-4bcc-801f-20c772e5bbc5&xptdk=4d95c7e5-c176-4bcc-801f-20c772e5bbc5"
                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli Sekarang</a>
                 </div>
             </div>
@@ -97,9 +97,20 @@
                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi" role="tabpanel"
                         aria-labelledby="Deskripsi-tab">
                         <p>
-                            UNDERBONE NUI MONSTER 3
-                            SATRIA FU LAMA
-                            STEP BISA LIPAT
+                            Shock Breaker Shock Absorber Shock Belakang Tabung RCB Flow Pro 305 MM
+
+                            Terdapat setelan Preload, Rebound , Compression
+
+                            Untuk Motor :
+                            Aerox Old
+                            Aerox New
+                            PCX 150
+                            Nmax New
+                            NOUVO
+
+                            Tersedia Warna :
+                            Hitam Prmium
+                            Titanium
 
                         </p>
                     </div>
@@ -112,7 +123,7 @@
                         <div class="row row-product">
                             <div class="col-lg-5">
                                 <figure class="figure">
-                                    <img src="../assets/UNDERBONE DKT.jpeg" class="figure-img img-fluid" width="300px"
+                                    <img src="../assets/sbktc.webp" class="figure-img img-fluid" width="300px"
                                         height="5000px">
                                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
@@ -121,11 +132,11 @@
                             </div>
 
                             <di class="col-lg-7">
-                                <h4>UNDERBONE DKT</h4>
+                                <h4>SHOCKBREAKER KTC</h4>
                                 <div class="garis-product"></div>
-                                <h3 class="text-muted mb-2">Rp.310.000</h3>
+                                <h3 class="text-muted mb-2">Rp.950.000</h3>
                                 <div class="btn-produk mt-1">
-                                    <a href="https://shopee.co.id/Footstep-Underbone-laser-Dkt-Disc-Cakram-Belakang-Pnp-Ninja-150-R-RR-i.31938962.2453647987?sp_atk=365d49d4-c570-45a0-8e84-e3fc95dd1bb6&xptdk=365d49d4-c570-45a0-8e84-e3fc95dd1bb6"
+                                    <a href="https://shopee.co.id/SHOCKBREAKER-SHOCK-KTC-RACING-EXTREME-MOTOR-MATIC-MIO-300MM-VARIO125-325MM-VARIO-160-340MM-i.357105220.19331553392?sp_atk=8f739243-5126-4481-92b3-a338957961e5&xptdk=8f739243-5126-4481-92b3-a338957961e5"
                                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli Sekarang</a>
                                 </div>
                         </div>
@@ -146,12 +157,29 @@
                                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi" role="tabpanel"
                                         aria-labelledby="Deskripsi-tab">
                                         <p>
-                                            FOTSTEP UNDERBONE COPY DKT THAILAND.
-                                            MERK DKT LASER.BONUS STICKER DKT SUDAH DI TEMPEL.
-                                            PNP UNTUK DISC CAKRAM BELAKANG MOTOR NINJA150 R-RR CAKRAM BELAKANG.
-                                            WARNA SILVER.
-                                            BAHAN ALOY CNC KUAT TEBAL.
-                                            UNTUK NINJA RR SELANG REM HARUS GANTI YG LEBIH PANJANG.
+                                            SHOCKBREAKER KTC RACING ORIGINAL.
+                                            TERSEDIA UKURAN 300MM / 325MM/ 340MM WARNA GREY TITANIUM , BLACK EDITION
+                                            HARGA UNTUK 1 PCS MONO SHOCK MATIC DAN SILAHKAN COCOKAN JENIS MOTOR ANDA
+                                            PADA PILIHAN DI KOLOM VARIAN.
+
+                                            JENIS MOTOR :
+                                            1.PENGGUNAAN UKURAN 300 MM ADALAH :
+                                            - Yamaha Mio Karbu Series (Sporty, Smile, Soul, Fino).
+                                            - Mio J, Mio GT, Soul GT 115, Fino 115.
+                                            - Mio M3, Mio Z, Fino 125, Soul GT 125.
+                                            - Beat Karburator.
+                                            - Spacy.
+                                            - Scoopy Karburator / Scoopy Fi Keluaran pertama.
+                                            - Beat Fi / Esp Keluaran Pertama.
+                                            - Vario 110.
+
+                                            2. PENGGUNAAN UKURAN 325 MM ADALAH :
+                                            - Vario 125.
+                                            - Vario 150.
+                                            - Xride 115.
+
+                                            3. PENGGUNAAN UKURAN 340 MM ADALAH :
+                                            - ALL NEW HONDA VARIO 160.
 
                                         </p>
                                     </div>
@@ -163,7 +191,7 @@
                                         <div class="row row-product">
                                             <div class="col-lg-5">
                                                 <figure class="figure">
-                                                    <img src="../assets/underbone rcb.jpeg" class="figure-img img-fluid"
+                                                    <img src="../assets/sbohlins.webp" class="figure-img img-fluid"
                                                         width="300px" height="5000px">
                                                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
@@ -172,11 +200,11 @@
                                             </div>
 
                                             <di class="col-lg-7">
-                                                <h4>UNDERBONE RCB</h4>
+                                                <h4>SHOCKBREAKER OHLINS</h4>
                                                 <div class="garis-product"></div>
-                                                <h3 class="text-muted mb-2">Rp.2.050.000</h3>
+                                                <h3 class="text-muted mb-2">Rp. 1.475.000,00</h3>
                                                 <div class="btn-produk mt-1">
-                                                    <a href="https://shopee.co.id/Footstep-Underbone-Mx-King-RCB-Racing-Boy-i.27603874.6209876048?sp_atk=0674d3c9-7e99-4dbe-bb24-0198b3d9c02e&xptdk=0674d3c9-7e99-4dbe-bb24-0198b3d9c02e"
+                                                    <a href="https://shopee.co.id/Shock-Shockbreaker-Model-OHLINS-PREMIUM-Tabung-Bawah-Klik-STEL-REBOUND-Fungsi-Vario-Beat-Scoopy-310-330-i.425083180.7193545144?sp_atk=e2048277-4653-4035-9fdd-c64ee589240d&xptdk=e2048277-4653-4035-9fdd-c64ee589240d"
                                                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli
                                                         Sekarang</a>
                                                 </div>
@@ -199,7 +227,24 @@
                                                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi"
                                                         role="tabpanel" aria-labelledby="Deskripsi-tab">
                                                         <p>
-                                                            Footstep Underbone for Mx King merk Racing Boy
+                                                            shockbreker Model Tabung Bawah Ohlins Adjustable Rebound
+                                                            Compression
+                                                            Specifications and features
+                                                            -size 310mm and 330mm hole to hole
+                                                            -singgel shock type
+                                                            -tube contain gas and oli pressure
+                                                            -Adjustable thread spring preload
+                                                            -Rebound compression adjustable (20 step klik)
+                                                            -premium Best Quality Suspensions
+                                                            -Guarantee your satisfaction
+
+                                                            Availabel For
+                                                            -Honda Vario series
+                                                            -Honda beat ,Beat fi ,beat esp ,beat street beat karbu
+                                                            -Honda scoopy
+                                                            -Honda Genio
+                                                            -yamaha mio sporty mio j
+                                                            x ride dll
 
                                                         </p>
                                                     </div>
@@ -211,7 +256,7 @@
                                                         <div class="row row-product">
                                                             <div class="col-lg-5">
                                                                 <figure class="figure">
-                                                                    <img src="../assets/UNDERBONE VND.jpeg"
+                                                                    <img src="../assets/sbyss.jpeg"
                                                                         class="figure-img img-fluid" width="300px"
                                                                         height="5000px">
                                                                     <figcaption
@@ -222,11 +267,11 @@
                                                             </div>
 
                                                             <di class="col-lg-7">
-                                                                <h4>UNDERBONE VND</h4>
+                                                                <h4>SHOCKBREAKER YSS</h4>
                                                                 <div class="garis-product"></div>
-                                                                <h3 class="text-muted mb-2">Rp.900.000</h3>
+                                                                <h3 class="text-muted mb-2">Rp. 1.350.000,00</h3>
                                                                 <div class="btn-produk mt-1">
-                                                                    <a href="https://shopee.co.id/Footstep-Underbone-VND-Ninja-R-RR-SS-ZX-150-Original-VND-Premium-AK111-i.104454926.21712478889?sp_atk=ef5f724e-116d-42f1-92da-1a8c78da5738&xptdk=ef5f724e-116d-42f1-92da-1a8c78da5738"
+                                                                    <a href="https://shopee.co.id/SHOCKBREAKER-SHOCK-YSS-G-SERIES-SMOOTH-VARIO-150-VARIO-125-UK-330MM-i.35249717.8151044704?sp_atk=9d9dd0ed-1826-406e-ac36-d555eecd5911&xptdk=9d9dd0ed-1826-406e-ac36-d555eecd5911"
                                                                         class="btn btn-warning bt-lg"
                                                                         style="font-size: 10px">Beli Sekarang</a>
                                                                 </div>
@@ -251,10 +296,10 @@
                                                                         id="Deskripsi" role="tabpanel"
                                                                         aria-labelledby="Deskripsi-tab">
                                                                         <p>
-                                                                            Footstep Underbone VND Premium
-                                                                            Type AK111 B1
-                                                                            Bahan Almu dan Full CNC
-                                                                            Kuat dan Presisi
+                                                                            SHOCK BELAKANG YSS G SERIES SMOOTH
+                                                                            UNTUK DI MOTOR VARIO 125/150
+                                                                            TINGGI SHOCK 330MM
+
 
                                                                         </p>
                                                                     </div>

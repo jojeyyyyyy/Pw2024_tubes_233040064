@@ -33,15 +33,15 @@
                 <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="homepage.html">Beranda </a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Beranda </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="register.html">Daftar</a>
+                        <a class="nav-link" href="register.php">Daftar</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Masuk</a>
+                        <a class="nav-link" href="login.php">Masuk</a>
                     </li>
 
                 </ul>
@@ -56,7 +56,7 @@
     <div class="container">
         <nav aria-label="breadcrumb" style="background-color: #fff" class="mt-3">
             <ol class="breadcrumb p-3">
-                <li class="breadcrumb-item"><a href="homepage.html" class="text-decoration-none">Beranda</a></li>
+                <li class="breadcrumb-item"><a href="homepage.php" class="text-decoration-none">Beranda</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Produk</li>
             </ol>
         </nav>

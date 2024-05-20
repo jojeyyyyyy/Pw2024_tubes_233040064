@@ -32,13 +32,13 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="homepage.html">Beranda </a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Beranda </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register.html">Daftar</a>
+                        <a class="nav-link" href="register.php">Daftar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Masuk</a>
+                        <a class="nav-link" href="login.php">Masuk</a>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -51,7 +51,7 @@
     <div class="container">
         <nav aria-label="breadcrumb" style="background-color: #fff" class="mt-3">
             <ol class="breadcrumb p-3">
-                <li class="breadcrumb-item"><a href="homepage.html" class="text-decoration-none">Beranda</a></li>
+                <li class="breadcrumb-item"><a href="homepage.php" class="text-decoration-none">Beranda</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Produk</li>
             </ol>
         </nav>
@@ -63,7 +63,7 @@
         <div class="row row-product">
             <div class="col-lg-5">
                 <figure class="figure">
-                    <img src="../assets/ban rosso.jpeg" class="figure-img img-fluid" width="300px" height="5000px">
+                    <img src="../assets/kanalpot rcb2.jpeg" class="figure-img img-fluid" width="300px" height="5000px">
                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
                     </figcaption>
@@ -71,11 +71,11 @@
             </div>
 
             <div class="col-lg-7">
-                <h4>BAN PIRELLI DIABLO ROSSO</h4>
+                <h4>KANALPOT RCB</h4>
                 <div class="garis-product"></div>
-                <h3 class="text-muted mb-2">Rp.377.000</h3>
+                <h3 class="text-muted mb-2">Rp.130.000</h3>
                 <div class="btn-produk mt-1">
-                    <a href="https://shopee.co.id/Ban-Pirelli-Diablo-Rosso-Sport-90-80-Ring-14-i.157410853.16728419622?sp_atk=4a486ead-5dc5-4fdd-b60b-e2c611829dc5&xptdk=4a486ead-5dc5-4fdd-b60b-e2c611829dc5"
+                    <a href="https://shopee.co.id/Knalpot-Racing-RCB-DRAG-MIO-SPORTY-BEAT-VARIO-N-MAX-X-RIDE-LEXI-AEROX-i.134742983.2025451092?sp_atk=ee2c2227-e792-4c9a-b241-f667f6f369d1&xptdk=ee2c2227-e792-4c9a-b241-f667f6f369d1"
                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli Sekarang</a>
                 </div>
             </div>
@@ -97,8 +97,11 @@
                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi" role="tabpanel"
                         aria-labelledby="Deskripsi-tab">
                         <p>
-                            Ban Pirelli Diablo Rosso Sport 90/80 Ring 14
-
+                            Bahan material stenlis Bagus.
+                            Diameter 50mm / 2inc.
+                            -BAS PADET
+                            -BAS GAHAR
+                            -GARING
                         </p>
                     </div>
                     <!-- single product 1 -->
@@ -110,8 +113,8 @@
                         <div class="row row-product">
                             <div class="col-lg-5">
                                 <figure class="figure">
-                                    <img src="../assets/ban fdr.jpeg" class="figure-img img-fluid" width="300px"
-                                        height="5000px">
+                                    <img src="../assets/kanalpot proliner.jpeg" class="figure-img img-fluid"
+                                        width="300px" height="5000px">
                                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
                                     </figcaption>
@@ -119,11 +122,11 @@
                             </div>
 
                             <di class="col-lg-7">
-                                <h4>BAN FDR</h4>
+                                <h4>KANALPOT PROLINER</h4>
                                 <div class="garis-product"></div>
-                                <h3 class="text-muted mb-2">Rp.345.000</h3>
+                                <h3 class="text-muted mb-2">Rp.809.600</h3>
                                 <div class="btn-produk mt-1">
-                                    <a href="https://shopee.co.id/Ban-luar-Motor-FDR-Sport-MP27-90-80-PRODUKSI-2024-Baru-Race-Compound-Soft-Balap-motor-matic-14-atau-motor-bebek-17-Tubeless-Vario-All-Matic-Depan-Belakang-i.162553004.14746854750?sp_atk=9a94bd5a-ef4e-4de9-a1df-afe63fc1c968&xptdk=9a94bd5a-ef4e-4de9-a1df-afe63fc1c968"
+                                    <a href="https://shopee.co.id/PROLINER-KNALPOT-PROLINER-TR1-SHORT-FULL-SISTEM-ORIGINAL-i.54974978.5261320144?sp_atk=7bc79309-9fe8-48a4-886f-9745d02121b9&xptdk=7bc79309-9fe8-48a4-886f-9745d02121b9"
                                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli Sekarang</a>
                                 </div>
                         </div>
@@ -144,12 +147,18 @@
                                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi" role="tabpanel"
                                         aria-labelledby="Deskripsi-tab">
                                         <p>
-                                            Merk : FDR
-                                            Jenis : Tubeless
-                                            Tipe : MP27
-                                            Ukuran : 90 / 80 - 14 atau 90/80-17 (pilih di varian)
-
-                                            Cocok untuk All Matic
+                                            Knalpot Racing Motor RCB Racing Original
+                                            Aplikasi :
+                                            - Beat Karbu
+                                            - Beat Fi
+                                            - Beat Esp
+                                            - Scoopy Karbu
+                                            - Scoopy Fi
+                                            - Scoopy Esp
+                                            - Vario 110
+                                            Inlet : 38mm
+                                            Saringan Setengah
+                                            Panjang Silincer : 20cm
                                         </p>
                                     </div>
                                     <!-- single product 2 -->
@@ -160,7 +169,7 @@
                                         <div class="row row-product">
                                             <div class="col-lg-5">
                                                 <figure class="figure">
-                                                    <img src="../assets/ban irc.jpeg" class="figure-img img-fluid"
+                                                    <img src="../assets/kanalpot cld.jpeg" class="figure-img img-fluid"
                                                         width="300px" height="5000px">
                                                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
@@ -169,11 +178,11 @@
                                             </div>
 
                                             <di class="col-lg-7">
-                                                <h4>BAN IRC</h4>
+                                                <h4>KANALPOT CLD</h4>
                                                 <div class="garis-product"></div>
-                                                <h3 class="text-muted mb-2">Rp.510.000</h3>
+                                                <h3 class="text-muted mb-2">Rp.680.000</h3>
                                                 <div class="btn-produk mt-1">
-                                                    <a href="https://shopee.co.id/BAN-LUAR-MOTOR-BALAP-FASTI-2-RING-17-14-UKURAN-90-80-TUBLES-i.5045420.18668693802?sp_atk=8855fb20-71a3-4249-96e2-ac85f4939cc0&xptdk=8855fb20-71a3-4249-96e2-ac85f4939cc0"
+                                                    <a href="https://shopee.co.id/KNALPOT-CLD-TYPE-C2-BULAT-C2-OVAL-BEAT-SCOOPY-VARIO-110-i.348823908.7670892353?sp_atk=4aa65a05-e04e-4076-91ef-437658205be9&xptdk=4aa65a05-e04e-4076-91ef-437658205be9"
                                                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli
                                                         Sekarang</a>
                                                 </div>
@@ -196,9 +205,19 @@
                                                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi"
                                                         role="tabpanel" aria-labelledby="Deskripsi-tab">
                                                         <p>
-                                                            BAN LUAR IRC FASTI2
-                                                            90/80-17
-                                                            90/80-14
+                                                            Knalpot Racing Motor CLD Racing Original
+                                                            Aplikasi :
+                                                            - Beat Karbu
+                                                            - Beat Fi
+                                                            - Beat Esp
+                                                            - Scoopy Karbu
+                                                            - Scoopy Fi
+                                                            - Scoopy Esp
+                                                            - Vario 110
+                                                            Inlet : 38mm
+                                                            Saringan Setengah
+                                                            Panjang Silincer : 20cm
+
                                                         </p>
                                                     </div>
                                                     <!-- single product 3 -->
@@ -209,7 +228,7 @@
                                                         <div class="row row-product">
                                                             <div class="col-lg-5">
                                                                 <figure class="figure">
-                                                                    <img src="../assets/ban maxxis.jpeg"
+                                                                    <img src="../assets/kanalpot akrapovic.jpeg"
                                                                         class="figure-img img-fluid" width="300px"
                                                                         height="5000px">
                                                                     <figcaption
@@ -220,11 +239,11 @@
                                                             </div>
 
                                                             <di class="col-lg-7">
-                                                                <h4>BAN MAXXIS</h4>
+                                                                <h4>KANALPOT AKRAPOVIC</h4>
                                                                 <div class="garis-product"></div>
-                                                                <h3 class="text-muted mb-2">Rp.358.900</h3>
+                                                                <h3 class="text-muted mb-2">Rp.550.000</h3>
                                                                 <div class="btn-produk mt-1">
-                                                                    <a href="https://shopee.co.id/Ban-Maxxis-110-80-14-Victra-S98ST-Tubeless-i.41324852.4802460041?sp_atk=bf0ea7b1-39ed-492e-ae90-ea06c934019d&xptdk=bf0ea7b1-39ed-492e-ae90-ea06c934019d"
+                                                                    <a href="https://shopee.co.id/Knalpot-Ninja-250-R25-MT25-Z250-CBR-250RR-Fullsystem-Akrapovic-Lorenzo-i.11594536.6233430465?sp_atk=799c28c4-7429-4e6b-aa6a-db7c8e0af88a&xptdk=799c28c4-7429-4e6b-aa6a-db7c8e0af88a"
                                                                         class="btn btn-warning bt-lg"
                                                                         style="font-size: 10px">Beli Sekarang</a>
                                                                 </div>
@@ -249,27 +268,19 @@
                                                                         id="Deskripsi" role="tabpanel"
                                                                         aria-labelledby="Deskripsi-tab">
                                                                         <p>
-                                                                            BAN MAXXIS 110/80-14 VICTRA S98S
-                                                                            -Ban produksi 2023
-
-                                                                            Victra S98 ST
-                                                                            Keunggulan Ban Maxxis VICTRA S98 ST adalah
-                                                                            sebagai berikut :
-                                                                            Ban Maxxis VICTRA S98 ST menggunakan Dual
-                                                                            Compound, yaitu kompon medium pada bagian
-                                                                            tengah tapak ban supaya usia ban tersebut
-                                                                            awet untuk perjalanan lebih jauh dan
-                                                                            menggunakan kompon soft di bagian samping
-                                                                            supaya handling enak buat menikung
-                                                                            Ban Maxxis VICTRA S98 ST ini diklaim
-                                                                            memiliki Kontrol dan stabilitas terbaik di
-                                                                            kecepatan tinggi
-                                                                            Ban Maxxis VICTRA S98 ST menggunakan tapak
-                                                                            Pola alur yang didesain untuk performa yang
-                                                                            mumpuni baik di jalanan kering maupun basah
-                                                                            saat hujan, jelas ini ban road tidak untuk
-                                                                            medan berpasir, lumpur maupun kena oli dan
-                                                                            minyak solar.
+                                                                            Knalpot Racing Motor AKRAPOVIC Racing
+                                                                            Original
+                                                                            Aplikasi :
+                                                                            - Beat Karbu
+                                                                            - Beat Fi
+                                                                            - Beat Esp
+                                                                            - Scoopy Karbu
+                                                                            - Scoopy Fi
+                                                                            - Scoopy Esp
+                                                                            - Vario 110
+                                                                            Inlet : 38mm
+                                                                            Saringan Setengah
+                                                                            Panjang Silincer : 20cm
 
                                                                         </p>
                                                                     </div>

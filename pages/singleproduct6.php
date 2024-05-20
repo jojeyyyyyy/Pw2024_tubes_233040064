@@ -32,13 +32,13 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="homepage.html">Beranda </a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Beranda </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register.html">Daftar</a>
+                        <a class="nav-link" href="register.php">Daftar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Masuk</a>
+                        <a class="nav-link" href="login.php">Masuk</a>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -51,7 +51,7 @@
     <div class="container">
         <nav aria-label="breadcrumb" style="background-color: #fff" class="mt-3">
             <ol class="breadcrumb p-3">
-                <li class="breadcrumb-item"><a href="homepage.html" class="text-decoration-none">Beranda</a></li>
+                <li class="breadcrumb-item"><a href="homepage.php" class="text-decoration-none">Beranda</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Produk</li>
             </ol>
         </nav>
@@ -63,7 +63,7 @@
         <div class="row row-product">
             <div class="col-lg-5">
                 <figure class="figure">
-                    <img src="../assets/mr rcb.jpeg" class="figure-img img-fluid" width="300px" height="5000px">
+                    <img src="../assets/ban rosso.jpeg" class="figure-img img-fluid" width="300px" height="5000px">
                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
                     </figcaption>
@@ -71,11 +71,11 @@
             </div>
 
             <div class="col-lg-7">
-                <h4>MASTER REM RCB</h4>
+                <h4>BAN PIRELLI DIABLO ROSSO</h4>
                 <div class="garis-product"></div>
-                <h3 class="text-muted mb-2">Rp.1.525.000</h3>
+                <h3 class="text-muted mb-2">Rp.377.000</h3>
                 <div class="btn-produk mt-1">
-                    <a href="https://shopee.co.id/Paketan-Master-Rem-RCB-E2-Oval-Bulat-14mm-Set-Kanan-Kiri-Handle-Kopling-Kaliper-RCB-S-E-Series-2-piston-Handgrip-RCB-HG77-Selang-Rem-TDR-Carbon-90cm-Vario-110-125-150-Beat-Scoopy-New-Old-Fino-Xride-125-RX-King-Spesial-lama-Aerox-Ninja-Original-i.207404549.24327111129?sp_atk=3a119223-e3ac-4d8a-a648-964d7c30ea3f&xptdk=3a119223-e3ac-4d8a-a648-964d7c30ea3f"
+                    <a href="https://shopee.co.id/Ban-Pirelli-Diablo-Rosso-Sport-90-80-Ring-14-i.157410853.16728419622?sp_atk=4a486ead-5dc5-4fdd-b60b-e2c611829dc5&xptdk=4a486ead-5dc5-4fdd-b60b-e2c611829dc5"
                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli Sekarang</a>
                 </div>
             </div>
@@ -97,16 +97,8 @@
                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi" role="tabpanel"
                         aria-labelledby="Deskripsi-tab">
                         <p>
-                            - Master rem RCB E2 Oval kanan kiri
-                            - Kaliper RCB S / E Series
-                            - Selang TDR 90CM carbon
-                            - Handgrip RCB HG77
+                            Ban Pirelli Diablo Rosso Sport 90/80 Ring 14
 
-                            Cocok untuk motor :
-                            - RX King
-                            - Scoopy
-                            - Fino
-                            - Motor motor yang tidak ada batok atas
                         </p>
                     </div>
                     <!-- single product 1 -->
@@ -118,7 +110,7 @@
                         <div class="row row-product">
                             <div class="col-lg-5">
                                 <figure class="figure">
-                                    <img src="../assets/mr ktc.jpeg" class="figure-img img-fluid" width="300px"
+                                    <img src="../assets/ban fdr.jpeg" class="figure-img img-fluid" width="300px"
                                         height="5000px">
                                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
@@ -127,11 +119,11 @@
                             </div>
 
                             <di class="col-lg-7">
-                                <h4>MASTER REM KTC</h4>
+                                <h4>BAN FDR</h4>
                                 <div class="garis-product"></div>
-                                <h3 class="text-muted mb-2">Rp.1.800.000</h3>
+                                <h3 class="text-muted mb-2">Rp.345.000</h3>
                                 <div class="btn-produk mt-1">
-                                    <a href="https://shopee.co.id/Master-Rem-KTC-Kyta-7NB-16mm-Set-Kanan-Kiri-handle-Kopling-CNC-Vario-110-125-150-160-CBS-Beat-FI-Karbu-Scoopy-New-old-Verza-MX-King-R15-V2-V3-CBR-CBR250RR-Ninja-R-RR-250FI-R25-MT25-ER6N-ZX25R-RX-King-FIZR-Original-PNP-Kytaco-17mm-i.207404549.24868958031?sp_atk=b66d0114-d6f4-45a6-8ae0-745481d9f288&xptdk=b66d0114-d6f4-45a6-8ae0-745481d9f288"
+                                    <a href="https://shopee.co.id/Ban-luar-Motor-FDR-Sport-MP27-90-80-PRODUKSI-2024-Baru-Race-Compound-Soft-Balap-motor-matic-14-atau-motor-bebek-17-Tubeless-Vario-All-Matic-Depan-Belakang-i.162553004.14746854750?sp_atk=9a94bd5a-ef4e-4de9-a1df-afe63fc1c968&xptdk=9a94bd5a-ef4e-4de9-a1df-afe63fc1c968"
                                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli Sekarang</a>
                                 </div>
                         </div>
@@ -152,27 +144,12 @@
                                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi" role="tabpanel"
                                         aria-labelledby="Deskripsi-tab">
                                         <p>
-                                            Master Rem KTC Kyta
-                                            Tipe : 7NB
-                                            Ukuran Piston : 16mm 9/16x18
+                                            Merk : FDR
+                                            Jenis : Tubeless
+                                            Tipe : MP27
+                                            Ukuran : 90 / 80 - 14 atau 90/80-17 (pilih di varian)
 
-                                            Set Kanan Kiri Handle Kopling
-
-                                            isi paket :
-                                            - Master Rem Kanan 7NB
-                                            - Handle Kopling KTC Kiri
-                                            - 2 Tabung minyak rem Smoke dan susu
-                                            - breket spion variasi
-                                            - gantungan kunci
-                                            - sticker KTC
-                                            - Switch Rem Kanan
-
-                                            Cocok untuk semua motor / Universal :
-                                            - Motor Matic : Vario , Beat Scoopy dll.
-                                            - Motor Sport : R15 , CBR , Ninja dll
-                                            -Semua Motor
-
-
+                                            Cocok untuk All Matic
                                         </p>
                                     </div>
                                     <!-- single product 2 -->
@@ -183,7 +160,7 @@
                                         <div class="row row-product">
                                             <div class="col-lg-5">
                                                 <figure class="figure">
-                                                    <img src="../assets/mr brembo.jpeg" class="figure-img img-fluid"
+                                                    <img src="../assets/ban irc.jpeg" class="figure-img img-fluid"
                                                         width="300px" height="5000px">
                                                     <figcaption class="figure-caption d-flex justify-content-evenly">
 
@@ -192,11 +169,11 @@
                                             </div>
 
                                             <di class="col-lg-7">
-                                                <h4>MASTER REM BREMBO</h4>
+                                                <h4>BAN IRC</h4>
                                                 <div class="garis-product"></div>
-                                                <h3 class="text-muted mb-2">Rp. 1.750.000,00</h3>
+                                                <h3 class="text-muted mb-2">Rp.510.000</h3>
                                                 <div class="btn-produk mt-1">
-                                                    <a href="https://shopee.co.id/MASTER-REM-BREMBO-RCS19-CORSACORTA-TOP-GRADE-A001-LIMITED-EDITION-INCLUDE-DUDUKAN-SPION-ORI-THAILAND-i.183571353.6062806741?sp_atk=29a9a1e0-ed70-4798-a91e-4e1e993ffadc&xptdk=29a9a1e0-ed70-4798-a91e-4e1e993ffadc"
+                                                    <a href="https://shopee.co.id/BAN-LUAR-MOTOR-BALAP-FASTI-2-RING-17-14-UKURAN-90-80-TUBLES-i.5045420.18668693802?sp_atk=8855fb20-71a3-4249-96e2-ac85f4939cc0&xptdk=8855fb20-71a3-4249-96e2-ac85f4939cc0"
                                                         class="btn btn-warning bt-lg" style="font-size: 10px">Beli
                                                         Sekarang</a>
                                                 </div>
@@ -219,19 +196,9 @@
                                                     <div class="tab-pane fade show active Deskripsi" id="Deskripsi"
                                                         role="tabpanel" aria-labelledby="Deskripsi-tab">
                                                         <p>
-                                                            Master rem set Brembo RCS19 Cortacorsa
-                                                            _Include dudukan spion
-                                                            _Include Kabel swit rem
-                                                            _Include seset tabung master rem
-                                                            _Include Id Card brembo
-                                                            _Warna Grey limited kehitaman Metalic.
-                                                            _ Real picture dan reak kelengkapan sesuai picture
-                                                            _TOPGrade A01 original thailand.( No.1 nya thailand )
-                                                            _bookdush brembo
-                                                            _Logo brembo
-                                                            _Kiri Kopling/Rem
-
-
+                                                            BAN LUAR IRC FASTI2
+                                                            90/80-17
+                                                            90/80-14
                                                         </p>
                                                     </div>
                                                     <!-- single product 3 -->
@@ -242,7 +209,7 @@
                                                         <div class="row row-product">
                                                             <div class="col-lg-5">
                                                                 <figure class="figure">
-                                                                    <img src="../assets/mr nissin.jpeg"
+                                                                    <img src="../assets/ban maxxis.jpeg"
                                                                         class="figure-img img-fluid" width="300px"
                                                                         height="5000px">
                                                                     <figcaption
@@ -253,11 +220,11 @@
                                                             </div>
 
                                                             <di class="col-lg-7">
-                                                                <h4>MASTER REM NISSIN</h4>
+                                                                <h4>BAN MAXXIS</h4>
                                                                 <div class="garis-product"></div>
-                                                                <h3 class="text-muted mb-2">Rp. 6.500.000,00</h3>
+                                                                <h3 class="text-muted mb-2">Rp.358.900</h3>
                                                                 <div class="btn-produk mt-1">
-                                                                    <a href="https://shopee.co.id/Master-rem-Nissin-prototype-HRC-Japan-i.22598744.25353989362?sp_atk=cf542c23-0be8-4895-a29f-0dc927f79b24&xptdk=cf542c23-0be8-4895-a29f-0dc927f79b24"
+                                                                    <a href="https://shopee.co.id/Ban-Maxxis-110-80-14-Victra-S98ST-Tubeless-i.41324852.4802460041?sp_atk=bf0ea7b1-39ed-492e-ae90-ea06c934019d&xptdk=bf0ea7b1-39ed-492e-ae90-ea06c934019d"
                                                                         class="btn btn-warning bt-lg"
                                                                         style="font-size: 10px">Beli Sekarang</a>
                                                                 </div>
@@ -282,9 +249,27 @@
                                                                         id="Deskripsi" role="tabpanel"
                                                                         aria-labelledby="Deskripsi-tab">
                                                                         <p>
-                                                                            Master cylinder Nissin radial prototype HRC
-                                                                            original made in Japan 🇯🇵
+                                                                            BAN MAXXIS 110/80-14 VICTRA S98S
+                                                                            -Ban produksi 2023
 
+                                                                            Victra S98 ST
+                                                                            Keunggulan Ban Maxxis VICTRA S98 ST adalah
+                                                                            sebagai berikut :
+                                                                            Ban Maxxis VICTRA S98 ST menggunakan Dual
+                                                                            Compound, yaitu kompon medium pada bagian
+                                                                            tengah tapak ban supaya usia ban tersebut
+                                                                            awet untuk perjalanan lebih jauh dan
+                                                                            menggunakan kompon soft di bagian samping
+                                                                            supaya handling enak buat menikung
+                                                                            Ban Maxxis VICTRA S98 ST ini diklaim
+                                                                            memiliki Kontrol dan stabilitas terbaik di
+                                                                            kecepatan tinggi
+                                                                            Ban Maxxis VICTRA S98 ST menggunakan tapak
+                                                                            Pola alur yang didesain untuk performa yang
+                                                                            mumpuni baik di jalanan kering maupun basah
+                                                                            saat hujan, jelas ini ban road tidak untuk
+                                                                            medan berpasir, lumpur maupun kena oli dan
+                                                                            minyak solar.
 
                                                                         </p>
                                                                     </div>
