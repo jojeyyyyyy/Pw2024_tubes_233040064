@@ -137,7 +137,7 @@
                             </div>
                         </div>
 
-                        <div class="mt-3" <label>Sudah punyan aku? <a href="login.php" class="text-login">Login
+                        <div class="mt-3" <label>Sudah punyan aku? <a href="index.php" class="text-login">Login
                                 disini</a></label>
                         </div>
 

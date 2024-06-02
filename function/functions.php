@@ -25,6 +25,25 @@ function query($sql)
     return $rows;
 }
 
+function hapusData($id)
+{
+    $conn = koneksi();
+
+    // Lindungi ID dari serangan SQL Injection
+    $id = mysqli_real_escape_string($conn, $id);
+
+    // Buat query untuk menghapus data dari tabel cars berdasarkan ID
+    $query = "DELETE FROM cars WHERE id_cars='$id'";
+
+    // Jalankan query
+    if (mysqli_query($conn, $query)) {
+        return true; // Penghapusan berhasil
+    } else {
+        return false; // Penghapusan gagal
+    }
+}
+
+
 function tambah($data)
 {
     $conn = koneksi();
