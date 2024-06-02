@@ -9,9 +9,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../pages/login.css">
 
-    <title>KING AUTOMOTIVE</title>
+    <title></title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                 <a href class="textForm text-hover"="#">Lupa Pasword?</a>
             </div>
             <div class="d-grid textForm mt-5">
-                <button type="submit" class="btn btn-primary"><a href="homepage.html"></a> Masuk</button>
+                <button type="submit" class="btn btn-primary">Masuk</button>
             </div>
             <div class="mt-3">
                 <span class="textForm">Belum Punya Akun? <a href="#" class="text-hover"><a href="register.html" class="text-daftar">Daftar disini</a></span>
