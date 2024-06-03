@@ -21,11 +21,11 @@
             </div>
             <div class="menu">
                 <ul>
+
                     <li><a href="#" class="active">Home</a></li>
-                    <!-- <li><a href="#">History</a></li> -->
                     <li><a href="car.php">Cars</a></li>
                     <li><a href="register.php">register</a></li>
-                    <!-- <li><a href="#">Reviews</a></li> -->
+
                 </ul>
             </div>
         </div>
@@ -47,37 +47,33 @@
                     </button>
                     <div class="information">
                         <div class="production">
-                            <!-- <P>Production</P>
-                            <h2>1996-2024</h2> -->
+
                         </div>
                         <div class="production">
-                            <!-- <P>Designer</P>
-                            <h2>George Angersbach</h2> -->
+
                         </div>
                     </div>
                 </div>
                 <div class="right-sec">
                     <div class="my-car">
                         <div><img src="../assets/cm2 (1).png"></div>
-                        <!-- <div><img src="../assets/cv5-removebg-preview.png"></div> -->
                         <div><img src="../assets/cv6-removebg-preview.png"></div>
                         <div><img src="../assets/cm2 (2).png"></div>
-                        <div><img src="../assets/m5-rill.png"></div>    
+                        <div><img src="../assets/m5-rill.png"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $(".my-car").slick({
                 autoplay: true,
                 dots: true,
                 speed: 1000,
-                costumePaging: function (slider, i) {
+                costumePaging: function(slider, i) {
                     var thumb = $(slider.$slides[i]).data();
                     return '<a>' + (i + i) + '</a>'
                 }

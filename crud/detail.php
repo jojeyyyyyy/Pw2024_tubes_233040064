@@ -1,9 +1,9 @@
-<?php $cars = query("SELECT * FROM motor");
+<?php $cars = query("SELECT * FROM cars");
 
 // ambil id dari url
 $id = $_GET['id'];
 
-// query motor berdasarkan id
+// query mobil berdasarkan id
 $mtr = query("SELECT * FROM cars WHERE id_cars=$id"); ?>
 
 <!doctype html>

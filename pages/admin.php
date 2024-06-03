@@ -74,6 +74,7 @@ if (isset($_GET['hapus_id'])) {
                         <br>
 
                         <a class="btn btn-primary mt-5" href='?hapus_id=<?= $c['id_cars']; ?>' role="button" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">hapus</a>
+                        <a class="btn btn-primary mt-5" href="../crud/edit.php?id=<?= $c['id_cars'];?>" role="button" onclick="return confirm('Apakah Anda yakin ingin mengubah data ini?')">edit</a>
                     </div>
                 </div>
             <?php endforeach; ?>

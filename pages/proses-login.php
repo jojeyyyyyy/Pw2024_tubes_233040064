@@ -1,8 +1,6 @@
 <?php
 session_start();
-include "config.php"; // Ensure this file includes the database connection
-
-// Check if the form has been submitted and the username and password fields are set
+include "config.php"; 
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
@@ -15,12 +13,12 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
             if ($cek > 0) {
                 $data = mysqli_fetch_assoc($query);
-                // Check if the user is an admin
+               
                 if ($data['role'] == "admin") {
                     $_SESSION['username'] = $username;
                     $_SESSION['role'] = "admin";
                     header("location:admin.php");
-                // Check if the user is a regular user
+                
                 } else if ($data['role'] == "user") {
                     $_SESSION['username'] = $username;
                     $_SESSION['role'] = "user";
