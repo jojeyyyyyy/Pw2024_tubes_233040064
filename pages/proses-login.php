@@ -5,7 +5,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // Ensure the $db variable is defined by including the connection file
+  
     if (isset($db)) {
         $query = mysqli_query($db, "SELECT * FROM users WHERE username='$username' AND password='$password'");
         if ($query) {

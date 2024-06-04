@@ -7,12 +7,12 @@ if ($_SESSION['role'] != "admin") {
 include('../function/functions.php');
 $cars = query("SELECT * FROM cars");
 
-// Jika tombol "hapus" ditekan
+
 if (isset($_GET['hapus_id'])) {
     $hapus_id = $_GET['hapus_id'];
     if (hapusData($hapus_id)) {
         echo "<script>alert('Data berhasil dihapus');</script>";
-        // Refresh halaman setelah penghapusan berhasil
+
         echo "<script>window.location.href='admin.php';</script>";
     } else {
         echo "<script>alert('Gagal menghapus data');</script>";

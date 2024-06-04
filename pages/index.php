@@ -33,7 +33,7 @@
                 <button type="submit" class="btn btn-primary">Masuk</button>
             </div>
             <div class="mt-3">
-                <span class="textForm">Belum Punya Akun? <a href="#" class="text-hover"><a href="register.html" class="text-daftar">Daftar disini</a></span>
+                <span class="textForm">Belum Punya Akun? <a href="#" class="text-hover"><a href="register.php" class="text-daftar">Daftar disini</a></span>
             </div>
         </form>
     </div>

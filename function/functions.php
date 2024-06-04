@@ -61,25 +61,6 @@ function tambah($data)
 }
 
 
-function registrasi($data)
-{
-    $conn = koneksi();
-
-    $gambar = "default.img";
-    $username = htmlspecialchars($data["username"]);
-    $email = htmlspecialchars($data["email"]);
-    $password = htmlspecialchars($data["password"]);
-    $idrole = 2;
-
-    $query = "INSERT INTO users
-                VALUES
-                (null, '$gambar', '$username', '$email', '$password', '$idrole')
-             ";
-    mysqli_query($conn, $query) or die(mysqli_error($conn));
-
-    return mysqli_affected_rows($conn);
-}
-
 function edit($data)
 {
     $conn = koneksi();
@@ -94,9 +75,43 @@ function edit($data)
             generasi = '$generasi',
             deskripsi = '$deskripsi',
             foto = '$foto'
-        WHERE id_cars = $id_cars
-";
+        WHERE id_cars = $id_cars";
     mysqli_query($conn, $query) or die(mysqli_error($conn));
 
     return mysqli_affected_rows($conn);
+}
+
+function registrasi($data)
+{
+    global $conn;
+
+    $username = htmlspecialchars(strtolower($data['username']));
+    $password1 = mysqli_real_escape_string($conn, $data['password1']);
+    $password2 = mysqli_real_escape_string($conn, $data['password2']);
+
+    if (empty($username) || empty($password1) || empty($password2)) {
+        echo "<script>
+                alert('username /password tidak boleh kosong!')
+                document.location.href = 'register.php'
+            </script>";
+        return false;
+    }
+
+    // jika username sudah ad
+
+    if (query("SELECT * FROM users WHERE username = '$username'")) {
+        echo "<script>
+                alert('username sudah terdaftar')
+                document.location.href = 'register.php'
+            </script>";
+        return false;
+    }
+
+    if ($password1 !== $password2) {
+        echo "<script>
+                alert('konfirmasi password tidak sesuai')
+                document.location.href = 'register.php'
+            </script>";
+        return false;
+    }
 }
