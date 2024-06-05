@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Doodle+Shadow&family=Rubik+Lines&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Doodle+Shadow&family=Rubik+Lines&display=swap');
 
 body{
     background-color: #f6f7fb;
@@ -36,92 +36,4 @@ body{
 .text-merah{
     color: red;
     font-weight: bold;
-} */
-
-
-/* General Styles */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #f0f2f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: 'Roboto', sans-serif;
-}
-
-.container {
-  width: 400px;
-  padding: 2rem;
-  background-color: #fff;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  text-align: center;
-}
-
-.container h1 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  color: #333;
-}
-
-.container img {
-  width: 100px;
-  margin-bottom: 1rem;
-}
-
-.container form {
-  display: flex;
-  flex-direction: column;
-}
-
-.container label {
-  display: block;
-  text-align: left;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  color: #555;
-}
-
-.container input {
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
-  width: 100%;
-}
-
-.container button {
-  padding: 0.75rem;
-  background-color: #940000;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  width: 425px;
-}
-
-.container button:hover {
-  background-color: #c23b22;
-}
-
-.p {
-  color: red;
-  font-style: italic;
-  margin-top: 1rem;
-}
-
-
-.container .login{
-  margin-top: 1rem;
-  color: #940000;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: color 0.3s;
 }
