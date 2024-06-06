@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
         $insert = "INSERT INTO users (username, email, password, role) VALUES ('$username', '$email', '$hashed_password', '2')";
         if(mysqli_query($db, $insert)){
             header('location: index.php');
-            exit;
+            exit; 
         } else {
             $error[] = 'Failed to create user!';
         }
@@ -38,6 +38,21 @@ if(isset($_POST['submit'])){
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../pages/register.css">
+
+    <style>
+        body {
+            background-image: url('../assets/latar5.jpg');
+            background-size: cover;
+            /* background-position: center; */
+            background-repeat: no-repeat;
+        }
+
+        .form-container {
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+    </style>
 
 
     <title></title>

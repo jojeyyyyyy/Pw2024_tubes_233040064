@@ -39,3 +39,10 @@ body{
 .text-daftar{
     text-decoration: none;
 }
+
+.body {
+    background-image: url('../assets/gen1.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
