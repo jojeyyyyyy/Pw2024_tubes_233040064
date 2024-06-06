@@ -1,3 +1,35 @@
+<?php
+require '../function/functions.php';
+session_start();
+
+$db = koneksi();
+
+if(isset($_POST['submit'])){
+    $email = mysqli_real_escape_string($db, $_POST['email']);
+    $password = mysqli_real_escape_string($db, $_POST['password']);
+    $hashed_password = md5($password); 
+
+    $select = "SELECT * FROM users WHERE email = '$email'";
+    $result = mysqli_query($db, $select);
+ 
+    if(mysqli_num_rows($result) > 0){
+        $row = mysqli_fetch_assoc($result);
+        if(md5($password) == $row['password'] && $row['role'] == 'user'){ 
+            $_SESSION['username'] = $row['username'];
+            header('location: user.php');
+            exit;
+        } else {
+            echo "Username atau password salah";
+        }
+    } else {
+        echo "User tidak ditemukan";
+    }
+}
+?>
+
+
+
+
 <!doctype html>
 <html lang="en">
 
@@ -14,7 +46,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" method="post">
         <form class="login-container" action="proses-login.php" method="POST">
             <h3 class="textJudul mb-5">Masuk</h3>
 

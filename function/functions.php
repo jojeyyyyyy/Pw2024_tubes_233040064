@@ -114,4 +114,6 @@ function registrasi($data)
             </script>";
         return false;
     }
+
+    
 }

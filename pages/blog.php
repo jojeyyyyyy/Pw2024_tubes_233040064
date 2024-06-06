@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+
+if(isset($_SESSION['username'])){
+    $registerButton = '<li><a href="logout.php">Logout</a></li>';
+} else {
+    $registerButton = '<li><a href="register.php">Register</a></li>';
+}
+?>
+
 <!DOCTYPE html>
 
 <head lang="en">
@@ -15,20 +26,18 @@
 
 <body>
     <section class="header" id="header">
-        <div class="nav-bar">
-            <div class="logo">
-                <a href="#">Chevrolet</a>
-            </div>
-            <div class="menu">
-                <ul>
-
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="car.php">Cars</a></li>
-                    <li><a href="register.php">register</a></li>
-
-                </ul>
-            </div>
-        </div>
+    <div class="nav-bar">
+    <div class="logo">
+        <a href="#">Chevrolet</a>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="car.php">Cars</a></li>
+            <?php echo $registerButton; ?>
+        </ul>
+    </div>
+</div>
         <div class="hero">
             <div class="row">
                 <div class="left-sec">
