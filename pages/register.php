@@ -43,7 +43,6 @@ if(isset($_POST['submit'])){
         body {
             background-image: url('../assets/latar5.jpg');
             background-size: cover;
-            /* background-position: center; */
             background-repeat: no-repeat;
         }
 

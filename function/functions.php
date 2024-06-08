@@ -10,6 +10,7 @@ function koneksi()
     $db = mysqli_connect('localhost', 'root', '', 'pw2024_tubes_233040064')  or die('koneksi ke DB gagal');
     return $db;
 }
+
 function query($sql)
 {
     // koneksi ke database
@@ -97,7 +98,7 @@ function registrasi($data)
         return false;
     }
 
-    // jika username sudah ad
+    
 
     if (query("SELECT * FROM users WHERE username = '$username'")) {
         echo "<script>

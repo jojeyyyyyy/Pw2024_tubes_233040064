@@ -18,6 +18,21 @@ if (isset($_GET['hapus_id'])) {
         echo "<script>alert('Gagal menghapus data');</script>";
     }
 }
+
+
+
+$search = "";
+
+if (isset($_GET['search'])) {
+    $search = $_GET['search'];
+}
+
+$sql = "SELECT * FROM cars";
+if (!empty($search)) {
+    $sql .= " WHERE nama_mobil LIKE '%$search%' OR generasi LIKE '%$search%' OR deskripsi LIKE '%$search%'";
+}
+
+$cars = query($sql);
 ?>
 
 <!DOCTYPE html>
@@ -59,9 +74,15 @@ if (isset($_GET['hapus_id'])) {
                     <li class="nav-item">
                         <a class="nav-link" href="logout.php">Logout</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="daftar_user.php">Daftar User</a>
+                    </li>
 
                 </ul>
-
+                <form class="d-flex" action="" method="GET">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search" value="<?php echo isset($search) ? htmlspecialchars($search) : ''; ?>">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </nav>
@@ -83,7 +104,7 @@ if (isset($_GET['hapus_id'])) {
                         <br>
 
                         <a class="btn btn-primary mt-5" href='?hapus_id=<?= $c['id_cars']; ?>' role="button" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">hapus</a>
-                        <a class="btn btn-primary mt-5" href="../crud/edit.php?id=<?= $c['id_cars'];?>" role="button" onclick="return confirm('Apakah Anda yakin ingin mengubah data ini?')">edit</a>
+                        <a class="btn btn-primary mt-5" href="../crud/edit.php?id=<?= $c['id_cars']; ?>" role="button" onclick="return confirm('Apakah Anda yakin ingin mengubah data ini?')">edit</a>
                     </div>
                 </div>
             <?php endforeach; ?>

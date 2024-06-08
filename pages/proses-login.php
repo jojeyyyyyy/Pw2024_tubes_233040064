@@ -4,10 +4,10 @@ include "config.php";
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $username = mysqli_real_escape_string($db, $_POST['username']);
     $password = mysqli_real_escape_string($db, $_POST['password']);
-    $hashed_password = md5($password); // Ini sebaiknya diganti dengan password_hash()
+    $hashed_password = md5($password);
 
     $query = mysqli_prepare($db, "SELECT * FROM users WHERE username=? AND password=?");
-    mysqli_stmt_bind_param($query, 'ss', $username, $hashed_password); // Membandingkan dengan password yang di-hash di database
+    mysqli_stmt_bind_param($query, 'ss', $username, $hashed_password); 
     mysqli_stmt_execute($query);
     $result = mysqli_stmt_get_result($query);
 
@@ -29,6 +29,6 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         echo "Query error: " . mysqli_error($db);
     }
 } else {
-    echo "Username and Password must be provided.";
+    echo "Masukkan Username dan Password.";
 }
 ?>

@@ -6,7 +6,7 @@ if (isset($_POST['tambah'])) {
     if (tambah($_POST) > 0) {
         echo "<script>
     alert('data berhasil ditambahkan');
-    document.location.href = '../pages/car.php';
+    document.location.href = '../pages/admin.php';
     </script>";
     } else {
         echo "data gagal ditambahkan!";
@@ -46,7 +46,7 @@ if (isset($_POST['tambah'])) {
             </div>
             <div class="mb-3">
                 <label for="foto" class="form-label">Foto</label>
-                <input type="text" class="form-control" id="foto" name="foto" required>
+                <input type="file" class="form-control" id="foto" name="foto" required>
             </div>
             <button type="submit" name="tambah" class="btn btn-primary">tambah</button>
         </form>
