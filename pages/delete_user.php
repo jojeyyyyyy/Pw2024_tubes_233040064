@@ -15,6 +15,8 @@ if (isset($_GET['id'])) {
     
     if (mysqli_query(koneksi(), $query)) {
         echo "Data berhasil dihapus";
+        header("Location: daftar_user.php");
+        exit();
     } else {
         echo "Error: " . mysqli_error(koneksi());
     }

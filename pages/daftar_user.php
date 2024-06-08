@@ -59,7 +59,7 @@ $users = query("SELECT * FROM users");
                 <td>
                     <a href="?id=<?= $user['id']; ?>&role=admin" class="btn btn-primary" onclick="return confirm('yakin?')">Buat Admin</a>
                     <a href="?id=<?= $user['id']; ?>&role=user" class="btn btn-success" onclick="return confirm('yakin?')">Buat User</a>
-                    <a href="delete_user.php?id=<?= $user['id'];?>" onclick="return confirm('Are you sure you want to delete this user?');" class="btn btn-danger">Delete</a>
+                    <a href="delete_user.php?id=<?= $user['id'];?>" onclick="return confirm('yakin?');" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
         <?php endforeach; ?>
