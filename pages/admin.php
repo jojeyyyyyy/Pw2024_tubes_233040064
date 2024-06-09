@@ -111,9 +111,6 @@ $cars = query($sql);
         </div>
     </div>
     <!-- single product -->
-
-
-
 </body>
 
 </html>

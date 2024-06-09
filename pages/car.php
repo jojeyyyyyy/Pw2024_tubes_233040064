@@ -12,9 +12,16 @@ if (!empty($search)) {
     $sql .= " WHERE nama_mobil LIKE '%$search%' OR generasi LIKE '%$search%' OR deskripsi LIKE '%$search%'";
 }
 
-$cars = query($sql);
+$cars = [];
+if (isset($_GET['keyword'])) {
+    $keyword = $_GET['keyword'];
+    $cars = cari($keyword);
+} else {
+    $cars = query($sql);
+}
 ?>
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -27,7 +34,6 @@ $cars = query($sql);
     <link rel="stylesheet" href="../pages/cars.css">
 
     <title>Cars</title>
-    <link rel="stylesheet" href="pages/cars.css">
 </head>
 
 <body>
@@ -39,18 +45,17 @@ $cars = query($sql);
                 </svg>
                 <span class="text-white">Cars<strong> Chevrolet</strong></span>
             </div>
-            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search" value="<?php echo htmlspecialchars($search); ?>"> -->
-            <button class="navbar-toggler" type="submit" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="blog.php">Beranda </a>
+                        <a class="nav-link active" aria-current="page" href="blog.php">Beranda</a>
                     </li>
                 </ul>
-                <form class="d-flex" action="" method="GET">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search" value="<?php echo htmlspecialchars($search); ?>">
+                <form class="d-flex" id="searchForm" action="" method="GET">
+                    <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search" value="<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search']) : ''; ?>">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
@@ -68,7 +73,7 @@ $cars = query($sql);
 
     <!-- Single product -->
     <div class="container">
-        <div class="row row-product">
+        <div class="row row-product" id="result">
             <?php if (!empty($cars)) : ?>
                 <?php foreach ($cars as $car) : ?>
                     <div class="col-lg-5">
@@ -106,12 +111,42 @@ $cars = query($sql);
         </div>
     </footer>
     <!-- footer -->
-    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Custom JavaScript for AJAX -->
+    <script>
+      
+        document.getElementById("searchInput").addEventListener("input", function() {
+            var keyword = this.value.trim(); 
+            sendAjaxRequest(keyword);
+        });
+
+        // Tambahkan event listener untuk form pencarian
+        document.getElementById("searchForm").addEventListener("submit", function(event) {
+            event.preventDefault(); 
+            var keyword = document.getElementById("searchInput").value.trim(); 
+            sendAjaxRequest(keyword);
+        });
+
+        // Fungsi untuk mengirim permintaan AJAX
+        function sendAjaxRequest(keyword) {
+            var xhr = new XMLHttpRequest();
+            if (keyword.length >= 2 || keyword.length === 0) { 
+                // Mengirim permintaan AJAX
+                var url = keyword.length === 0 ? "../ajax/ajax.php" : "../ajax/ajax.php?keyword=" + keyword; 
+                xhr.open("GET", url, true);
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        document.getElementById("result").innerHTML = xhr.responseText; 
+                    }
+                };
+                xhr.send();
+            }
+        }
+    </script>
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+EtJ/6QDa5etfE9HDjC2abTk1tjFgERdknLPMO" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -118,3 +118,26 @@ function registrasi($data)
 
     
 }
+
+function cari($keyword)
+{
+    $conn = koneksi();
+
+    $query = "SELECT * FROM cars
+               WHERE 
+               nama_mobil LIKE '%$keyword%' OR
+               generasi LIKE '%$keyword%' OR
+               deskripsi LIKE '%$keyword%' OR
+               foto LIKE '%$keyword%'";
+
+    $result = mysqli_query($conn, $query);
+
+    $rows = [];
+    while ($row = mysqli_fetch_assoc($result)) {
+        $rows[] = $row;
+    }
+
+    return $rows;
+}
+
+
