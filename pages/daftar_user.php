@@ -1,5 +1,5 @@
 <?php
-include('../function/functions.php');
+include('functions.php');
 
 $db = koneksi();
 

@@ -1,6 +1,6 @@
 <?php
 
-include "../function/functions.php";
+include "functions.php";
 
 
 if (isset($_GET['id'])) {

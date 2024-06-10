@@ -4,7 +4,7 @@ if ($_SESSION['role'] != "admin") {
     header("location:index.php");
 }
 
-include('../function/functions.php');
+include('functions.php');
 $cars = query("SELECT * FROM cars");
 
 

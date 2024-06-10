@@ -1,5 +1,5 @@
 <?php
-require '../function/functions.php';
+require 'functions.php';
 session_start();
 
 $db = koneksi();
