@@ -7,20 +7,31 @@ if(isset($_POST['submit'])){
     $username = mysqli_real_escape_string($db, $_POST['username']);
     $email = mysqli_real_escape_string($db, $_POST['email']);
     $password = mysqli_real_escape_string($db, $_POST['password']);
-    $hashed_password = md5($password); 
-
+    $hashed_password = password_hash($password, PASSWORD_DEFAULT); 
+    // Periksa apakah email sudah terdaftar
     $select = "SELECT * FROM users WHERE email = '$email'";
     $result = mysqli_query($db, $select);
     
     if(mysqli_num_rows($result) > 0){
         $error[] = 'User already exists!';
     } else {
-        $insert = "INSERT INTO users (username, email, password, role) VALUES ('$username', '$email', '$hashed_password', '2')";
-        if(mysqli_query($db, $insert)){
-            header('location: index.php');
-            exit; 
+      
+        $role_query = "SELECT id_role FROM roles WHERE role = 'user'";
+        $role_result = mysqli_query($db, $role_query);
+        if ($role_row = mysqli_fetch_assoc($role_result)) {
+            $id_role = $role_row['id_role'];
         } else {
-            $error[] = 'Failed to create user!';
+            $error[] = 'Role not found!';
+        }
+
+        if (!isset($error)) {
+            $insert = "INSERT INTO users (username, email, password, id_role) VALUES ('$username', '$email', '$hashed_password', '$id_role')";
+            if(mysqli_query($db, $insert)){
+                header('location: index.php');
+                exit; 
+            } else {
+                $error[] = 'Failed to create user!';
+            }
         }
     }
 }
