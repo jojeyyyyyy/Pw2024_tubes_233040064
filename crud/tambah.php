@@ -1,5 +1,5 @@
 <?php
-require 'functions.php';
+require '../pages/functions.php';
 
 if (isset($_POST['tambah'])) {
 

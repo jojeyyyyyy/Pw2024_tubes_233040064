@@ -32,7 +32,7 @@ CREATE TABLE `produk` (
   `nama` varchar(255) NOT NULL,
   `kategori` varchar(255) NOT NULL,
   `merek` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 --
 -- Dumping data for table `produk`

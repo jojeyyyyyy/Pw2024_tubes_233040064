@@ -1,5 +1,5 @@
 <?php
-include '../function/functions.php';
+include '../pages/functions.php';
 
 
 $keyword = isset($_GET['keyword']) ? $_GET['keyword'] : '';
